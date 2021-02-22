@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="background.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="text.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Scoreboard.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Component.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="background.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="text.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Scoreboard.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\Enemy.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\dirt.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\grass.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\Player.png">
+      <Filter>assets</Filter>
+    </Image>
+    <Image Include="assets\water.png">
+      <Filter>assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="assets">
+      <UniqueIdentifier>{46c0120e-79ea-41af-8539-420efffde2f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{00fc70bd-5279-4493-a191-009f2298dd37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{56485f79-b858-4702-8df0-9d493aa46e70}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
